@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}	
+
+
+nav
+{
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FF6666;
+	margin-bottom: 0;
+	width: 100%;
+	height: 60px;
+}
+nav ul
+{
+	display:inline-block;
+	background-color: #FF6666;
+	text-decoration: none;
+	
+}
+
+nav ul li{
+	display:inline-block;
+	list-style: none;
+	position: relative;
+	
+}
+
+nav ul li a {
+	display: block;
+	font-family: arial;
+	color: white;
+	font-size: 14px;
+	padding: 22px 14px;
+	text-decoration: none;
+	
+	
+}
+
+nav ul li ul {
+	display: none;
+	position: absolute;
+	background-color: #FF8A8A;
+	padding: 10px;
+	min-width: 160px;
+}
+nav ul li:hover ul {
+	display: block;
+}
+nav ul li ul li {
+	width: 100%;
+	border-radius: 4px;
+}
+
+nav ul li ul li a {
+	padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+	padding: 8px 14px;
+	background-color: #FFB5B5;
+}
+
+.contactme
+{
+	text-align: left;
+	padding: 0px 0px 0px 15px;
+}
+.contactmetext
+{
+	color: pink;
+	text-align: left;
+	padding: 0px 0px 0px 15px;
+}
+
+
+.card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: 10px;
+	text-align: center;
+	font-family: arial;
+	float: left;
+	
+}
+
+.price{
+	color: black;
+	font-size: 22px;
+}
+
+.card-body{
+	height:150px;
+	font-family: Times New Roman;
+}
+
+
+.img2{
+	width: 260px;
+	height: 300px;
+	object-fit: cover;
+}
+
+#hometitle{
+	font-family: Times New Roman;
+	text-align: center;
+	font-size: 120px;
+}
+#hometitle2{
+	font-family: Times New Roman;
+	text-align:center;
+	font-size: 60px;
+}
+
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+html{
+	min-height: 100%;
+	background-color: #e6d7c6;
+	background-image: linear-gradient(#e6d7c6, white);
+}
+
+#label{
+	padding-left: 10px;
+	font-family: Times New Roman;
+	
+}
